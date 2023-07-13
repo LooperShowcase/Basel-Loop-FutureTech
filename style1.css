@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+  color: rgb(166, 255, 0);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgb(179, 255, 0);
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+#webcam-container {
+  margin-top: 20px;
+}
+
+#label-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#label-container > div {
+  margin: 0 5px;
+}
+
+#number {
+  color: red;
+}
+
+#Container {
+  margin-top: 50px;
+}
+
+h1 {
+  color: orange;
+}
+
+form {
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  margin-right: 10px;
+}
+
+button#submit-button {
+  margin-top: 10px;
+}
