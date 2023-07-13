@@ -32,8 +32,8 @@ async function GPT_talk(question) {
   };
   var url = "https://api.openai.com/v1/chat/completions";
   var apikey1 = "sk";
-  var apikey2 = "-K9OS42EpZ5fUstwt1cakT3";
-  var apikey3 = "BlbkFJlqmCKK03rkJ2QHoWkaqR";
+  var apikey2 = "-EjlWyc0R2zNdpjDW7nGnT3Blbk";
+  var apikey3 = "FJAdepomK8R6Z8WFo2KDb3";
   var apiKey = apikey1 + apikey1 + apikey3;
 
   try {
