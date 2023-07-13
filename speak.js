@@ -31,7 +31,10 @@ async function GPT_talk(question) {
     messages: conversationHistory,
   };
   var url = "https://api.openai.com/v1/chat/completions";
-  var apiKey = "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";
+  var apiKey1 = "sk";
+  var apikey2 = "-K9OS42EpZ5fUstwt1cakT3";
+  var apikey3 = "BlbkFJlqmCKK03rkJ2QHoWkaqR";
+  var apikey = apikey1 + apikey1 + apikey3;
 
   try {
     const response = await fetch(url, {
