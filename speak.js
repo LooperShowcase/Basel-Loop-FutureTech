@@ -34,7 +34,7 @@ async function GPT_talk(question) {
   var apikey1 = "sk";
   var apikey2 = "-EjlWyc0R2zNdpjDW7nGnT3Blbk";
   var apikey3 = "FJAdepomK8R6Z8WFo2KDb3";
-  var apiKey = apikey1 + apikey1 + apikey3;
+  var apiKey = apikey1 + apikey2 + apikey3;
 
   try {
     const response = await fetch(url, {
